@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -27,6 +28,7 @@
                                     <constraint firstAttribute="width" constant="215" id="nJv-Fz-tmW"/>
                                     <constraint firstAttribute="height" constant="290" id="soF-CL-eOh"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" backgroundImage="carta_costas">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -85,11 +87,8 @@
                                 <exclude reference="aIa-Ev-rUT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="02X-jA-8xA"/>
-                                <exclude reference="Bj7-sv-9it"/>
-                                <exclude reference="EHH-I7-c1H"/>
-                                <exclude reference="YRp-jp-fDS"/>
-                                <exclude reference="fIC-Lu-j81"/>
+                                <exclude reference="60f-kd-6kY"/>
+                                <exclude reference="X95-8N-RWn"/>
                                 <exclude reference="7fa-F9-pLh"/>
                                 <exclude reference="HQO-fn-Wc8"/>
                                 <exclude reference="Ok5-xp-glX"/>
@@ -100,8 +99,11 @@
                                 <exclude reference="lnN-Fd-EIB"/>
                                 <exclude reference="lzd-dm-Y0D"/>
                                 <exclude reference="xbd-3n-owu"/>
-                                <exclude reference="60f-kd-6kY"/>
-                                <exclude reference="X95-8N-RWn"/>
+                                <exclude reference="02X-jA-8xA"/>
+                                <exclude reference="Bj7-sv-9it"/>
+                                <exclude reference="EHH-I7-c1H"/>
+                                <exclude reference="YRp-jp-fDS"/>
+                                <exclude reference="fIC-Lu-j81"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -110,11 +112,8 @@
                                 <include reference="aIa-Ev-rUT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="02X-jA-8xA"/>
-                                <exclude reference="Bj7-sv-9it"/>
-                                <exclude reference="EHH-I7-c1H"/>
-                                <include reference="YRp-jp-fDS"/>
-                                <include reference="fIC-Lu-j81"/>
+                                <exclude reference="60f-kd-6kY"/>
+                                <exclude reference="X95-8N-RWn"/>
                                 <exclude reference="7fa-F9-pLh"/>
                                 <include reference="HQO-fn-Wc8"/>
                                 <exclude reference="Ok5-xp-glX"/>
@@ -125,8 +124,11 @@
                                 <exclude reference="lnN-Fd-EIB"/>
                                 <exclude reference="lzd-dm-Y0D"/>
                                 <exclude reference="xbd-3n-owu"/>
-                                <exclude reference="60f-kd-6kY"/>
-                                <exclude reference="X95-8N-RWn"/>
+                                <exclude reference="02X-jA-8xA"/>
+                                <exclude reference="Bj7-sv-9it"/>
+                                <exclude reference="EHH-I7-c1H"/>
+                                <include reference="YRp-jp-fDS"/>
+                                <include reference="fIC-Lu-j81"/>
                             </mask>
                         </variation>
                     </view>
