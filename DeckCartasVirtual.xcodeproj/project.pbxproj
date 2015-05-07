@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152726351AFB1C13002E5D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 152726341AFB1C13002E5D23 /* main.m */; };
+		152726381AFB1C13002E5D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152726371AFB1C13002E5D23 /* AppDelegate.m */; };
+		1527263B1AFB1C13002E5D23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527263A1AFB1C13002E5D23 /* ViewController.m */; };
+		1527263E1AFB1C13002E5D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1527263C1AFB1C13002E5D23 /* Main.storyboard */; };
+		152726401AFB1C13002E5D23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1527263F1AFB1C13002E5D23 /* Images.xcassets */; };
+		152726431AFB1C13002E5D23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152726411AFB1C13002E5D23 /* LaunchScreen.xib */; };
+		1527264F1AFB1C13002E5D23 /* DeckCartasVirtualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1527264E1AFB1C13002E5D23 /* DeckCartasVirtualTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152726491AFB1C13002E5D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152726271AFB1C13002E5D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1527262E1AFB1C13002E5D23;
+			remoteInfo = DeckCartasVirtual;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1527262F1AFB1C13002E5D23 /* DeckCartasVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckCartasVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152726331AFB1C13002E5D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152726341AFB1C13002E5D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		152726361AFB1C13002E5D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		152726371AFB1C13002E5D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		152726391AFB1C13002E5D23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1527263A1AFB1C13002E5D23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1527263D1AFB1C13002E5D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1527263F1AFB1C13002E5D23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		152726421AFB1C13002E5D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		152726481AFB1C13002E5D23 /* DeckCartasVirtualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckCartasVirtualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1527264D1AFB1C13002E5D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1527264E1AFB1C13002E5D23 /* DeckCartasVirtualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeckCartasVirtualTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1527262C1AFB1C13002E5D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152726451AFB1C13002E5D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152726261AFB1C13002E5D23 = {
+			isa = PBXGroup;
+			children = (
+				152726311AFB1C13002E5D23 /* DeckCartasVirtual */,
+				1527264B1AFB1C13002E5D23 /* DeckCartasVirtualTests */,
+				152726301AFB1C13002E5D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152726301AFB1C13002E5D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1527262F1AFB1C13002E5D23 /* DeckCartasVirtual.app */,
+				152726481AFB1C13002E5D23 /* DeckCartasVirtualTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152726311AFB1C13002E5D23 /* DeckCartasVirtual */ = {
+			isa = PBXGroup;
+			children = (
+				152726361AFB1C13002E5D23 /* AppDelegate.h */,
+				152726371AFB1C13002E5D23 /* AppDelegate.m */,
+				152726391AFB1C13002E5D23 /* ViewController.h */,
+				1527263A1AFB1C13002E5D23 /* ViewController.m */,
+				1527263C1AFB1C13002E5D23 /* Main.storyboard */,
+				1527263F1AFB1C13002E5D23 /* Images.xcassets */,
+				152726411AFB1C13002E5D23 /* LaunchScreen.xib */,
+				152726321AFB1C13002E5D23 /* Supporting Files */,
+			);
+			path = DeckCartasVirtual;
+			sourceTree = "<group>";
+		};
+		152726321AFB1C13002E5D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				152726331AFB1C13002E5D23 /* Info.plist */,
+				152726341AFB1C13002E5D23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1527264B1AFB1C13002E5D23 /* DeckCartasVirtualTests */ = {
+			isa = PBXGroup;
+			children = (
+				1527264E1AFB1C13002E5D23 /* DeckCartasVirtualTests.m */,
+				1527264C1AFB1C13002E5D23 /* Supporting Files */,
+			);
+			path = DeckCartasVirtualTests;
+			sourceTree = "<group>";
+		};
+		1527264C1AFB1C13002E5D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1527264D1AFB1C13002E5D23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1527262E1AFB1C13002E5D23 /* DeckCartasVirtual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152726521AFB1C13002E5D23 /* Build configuration list for PBXNativeTarget "DeckCartasVirtual" */;
+			buildPhases = (
+				1527262B1AFB1C13002E5D23 /* Sources */,
+				1527262C1AFB1C13002E5D23 /* Frameworks */,
+				1527262D1AFB1C13002E5D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckCartasVirtual;
+			productName = DeckCartasVirtual;
+			productReference = 1527262F1AFB1C13002E5D23 /* DeckCartasVirtual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152726471AFB1C13002E5D23 /* DeckCartasVirtualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152726551AFB1C13002E5D23 /* Build configuration list for PBXNativeTarget "DeckCartasVirtualTests" */;
+			buildPhases = (
+				152726441AFB1C13002E5D23 /* Sources */,
+				152726451AFB1C13002E5D23 /* Frameworks */,
+				152726461AFB1C13002E5D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1527264A1AFB1C13002E5D23 /* PBXTargetDependency */,
+			);
+			name = DeckCartasVirtualTests;
+			productName = DeckCartasVirtualTests;
+			productReference = 152726481AFB1C13002E5D23 /* DeckCartasVirtualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152726271AFB1C13002E5D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Infnet;
+				TargetAttributes = {
+					1527262E1AFB1C13002E5D23 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					152726471AFB1C13002E5D23 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1527262E1AFB1C13002E5D23;
+					};
+				};
+			};
+			buildConfigurationList = 1527262A1AFB1C13002E5D23 /* Build configuration list for PBXProject "DeckCartasVirtual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152726261AFB1C13002E5D23;
+			productRefGroup = 152726301AFB1C13002E5D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1527262E1AFB1C13002E5D23 /* DeckCartasVirtual */,
+				152726471AFB1C13002E5D23 /* DeckCartasVirtualTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1527262D1AFB1C13002E5D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1527263E1AFB1C13002E5D23 /* Main.storyboard in Resources */,
+				152726431AFB1C13002E5D23 /* LaunchScreen.xib in Resources */,
+				152726401AFB1C13002E5D23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152726461AFB1C13002E5D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1527262B1AFB1C13002E5D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1527263B1AFB1C13002E5D23 /* ViewController.m in Sources */,
+				152726381AFB1C13002E5D23 /* AppDelegate.m in Sources */,
+				152726351AFB1C13002E5D23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152726441AFB1C13002E5D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1527264F1AFB1C13002E5D23 /* DeckCartasVirtualTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1527264A1AFB1C13002E5D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1527262E1AFB1C13002E5D23 /* DeckCartasVirtual */;
+			targetProxy = 152726491AFB1C13002E5D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1527263C1AFB1C13002E5D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1527263D1AFB1C13002E5D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		152726411AFB1C13002E5D23 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152726421AFB1C13002E5D23 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152726501AFB1C13002E5D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		152726511AFB1C13002E5D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152726531AFB1C13002E5D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeckCartasVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		152726541AFB1C13002E5D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeckCartasVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		152726561AFB1C13002E5D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeckCartasVirtualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckCartasVirtual.app/DeckCartasVirtual";
+			};
+			name = Debug;
+		};
+		152726571AFB1C13002E5D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeckCartasVirtualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckCartasVirtual.app/DeckCartasVirtual";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1527262A1AFB1C13002E5D23 /* Build configuration list for PBXProject "DeckCartasVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152726501AFB1C13002E5D23 /* Debug */,
+				152726511AFB1C13002E5D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152726521AFB1C13002E5D23 /* Build configuration list for PBXNativeTarget "DeckCartasVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152726531AFB1C13002E5D23 /* Debug */,
+				152726541AFB1C13002E5D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		152726551AFB1C13002E5D23 /* Build configuration list for PBXNativeTarget "DeckCartasVirtualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152726561AFB1C13002E5D23 /* Debug */,
+				152726571AFB1C13002E5D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152726271AFB1C13002E5D23 /* Project object */;
+}
