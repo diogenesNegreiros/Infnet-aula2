@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)virarCarta:(UIButton *)sender {
+    // implementar
+}
+
 @end
